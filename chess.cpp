@@ -14,6 +14,7 @@ void showChessField() {
     }
 }
 
+
 bool tryPosition(int rows, int cols) {
     for(int i = 0; i < rows; ++i) {
         if(chessField[i][cols]) {
